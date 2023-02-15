@@ -1,0 +1,198 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: arial;}
+body{
+    background: #070C0F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0;
+}
+.top h1{
+    font-size: 5rem;
+    color: #3EE3DE;
+}
+.top h1 span{
+    color: #fff;
+}
+.bottom{
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    background: rgba(255,255,255,.2);
+    width: 320px;
+    padding: 30px 10px 30px 60px;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.card::after{
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 20px 0px 0px 20px ;
+    filter: blur(50px);
+    
+}
+.card::before{
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 20px 0px 0px 20px ;    
+}
+
+/* Red */
+.red::after{
+    position: absolute;
+    content: "";
+    background: #E74644;
+}
+.red::before{
+    position: absolute;
+    content: "";
+    background: #E74644;
+}
+/* yellow */
+.yellow::after{
+    position: absolute;
+    content: "";
+    background: #EAD141;
+}
+.yellow::before{
+    position: absolute;
+    content: "";
+    background: #EAD141;
+}
+/* Pink */
+.pink::after{
+    position: absolute;
+    content: "";
+    background: #E742EC;
+}
+.pink::before{
+    position: absolute;
+    content: "";
+    background: #E742EC;
+}
+/* Brown */
+.brown::after{
+    position: absolute;
+    content: "";
+    background: #BC5F19;
+}
+.brown::before{
+    position: absolute;
+    content: "";
+    background: #BC5F19;
+}
+/* Orange */
+.orange::after{
+    position: absolute;
+    content: "";
+    background: #ED7F42;
+}
+.orange::before{
+    position: absolute;
+    content: "";
+    background: #ED7F42;
+}
+/* Blue */
+.blue::after{
+    position: absolute;
+    content: "";
+    background: #4397EA;
+}
+.blue::before{
+    position: absolute;
+    content: "";
+    background: #4397EA;
+}
+/* Black */
+.black::after{
+    position: absolute;
+    content: "";
+    background: #000;
+}
+.black::before{
+    position: absolute;
+    content: "";
+    background: #000;
+}
+/* Silver */
+.silver::after{
+    position: absolute;
+    content: "";
+    background: #9697AD;
+}
+.silver::before{
+    position: absolute;
+    content: "";
+    background: #9697AD;
+}
+/* Green */
+.green::after{
+    position: absolute;
+    content: "";
+    background: #67E943;
+}
+.green::before{
+    position: absolute;
+    content: "";
+    background: #67E943;
+}
+/* Purple */
+.purple::after{
+    position: absolute;
+    content: "";
+    background: #4543EC;
+}
+.purple::before{
+    position: absolute;
+    content: "";
+    background: #4543EC;
+}
+/* White */
+.white::after{
+    position: absolute;
+    content: "";
+    background: #fff;
+}
+.white::before{
+    position: absolute;
+    content: "";
+    background: #fff;
+}
+/* Gold */
+.gold::after{
+    position: absolute;
+    content: "";
+    background: #D09220;
+}
+.gold::before{
+    position: absolute;
+    content: "";
+    background: #D09220;
+}
+
+.card h3{
+    font-size: 30px;
+    color: #fff;
+}
+.card p{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
